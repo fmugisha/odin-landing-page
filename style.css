@@ -76,8 +76,9 @@
 }
 
 #destination {
-    margin: 0 20%;
+    display: grid;
     padding: 3rem 0;
+    justify-content: center;
 }
 
 #d_title {
@@ -167,4 +168,83 @@
     background-color: #1f2937;
     text-align: center;
     padding: 1.5rem 0;
+}
+
+@media screen and (max-width:992px) {
+    .container img {
+        height: auto;
+        width: 100px;
+    }
+
+    #logo {
+        font-size: 24px;
+        color: #f9faf8;
+        justify-self: center;
+        padding-bottom: 2rem;
+    }
+
+    .nav {
+        display: grid;
+        padding: 2rem 20% 2rem 20%;
+        font-size: 25px;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .h_page {
+        display: grid;
+    }
+
+    .h_title {
+        width: 100%;
+    }
+    
+    #h_note {
+        padding: 2rem 0 4rem 0;
+    }
+    
+    .h_page button {
+        width: 80%;
+        height: 30%;
+        font-size: 20px;
+    }
+    
+    .image {
+        width: 100%;
+    }
+    
+    .image img {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5rem;
+    }
+
+    #contact {
+        display: grid;
+        height: 8rem;
+        width: 60%;
+        border-radius: 5px;
+        padding: 2rem;
+    }
+    
+    .c_container {
+        font-size: 12px;
+        margin: 0;
+    }
+    
+    .c_container #c_title {
+        font-weight: extra-bold;
+    }
+    
+    .c_container #c_note {
+        font-size: 18px;
+    }
+    
+    #contact button {
+        margin: 0;
+    }
 }
