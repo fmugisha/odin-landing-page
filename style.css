@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.top_page {
+    background-color: #1f2937;
+}
+
+.nav {
+    display: flex;
+    padding: 2rem 20% 2rem 20%;
+    font-size: 25px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar {
+    margin-left: 50%;
+}
+
+.navbar a {
+    margin: 0 1rem 0 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.h_page {
+    display: flex;
+    margin: 5rem 20% 0 20%;
+    padding-bottom: 5rem;
+}
+
+.h_title {
+    width: 50%;
+    padding-right: 3rem;
+}
+
+#h_note {
+    padding: 2rem 0 4rem 0;
+}
+
+.h_page button {
+    width: 30%;
+    height: 15%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #3882f6;
+}
+
+.page_title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    height: auto;
+    max-width: 100%;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+#destination {
+    margin: 0 20%;
+    padding: 3rem 0;
+}
+
+#d_title {
+    color: #1f2937;
+    font-weight: extra-bold;
+    font-size: 36px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.dest_container {
+    display: flex;
+}
+
+.container {
+    margin: 0 1rem;
+}
+
+.container img {
+    height: auto;
+    width: 180px;
+}
+
+.container #summary {
+    color: #000;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+#quotes {
+    background-color: #e5e7eb;
+}
+
+.q_container {
+    margin: 0 20%;
+    padding: 3rem 0;
+}
+
+.q_container .q_note {
+    color: #1f2937;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.q_container .q_author {
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 6rem 20%;
+    height: 8rem;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.c_container {
+    font-size: 15px;
+    margin: 2rem 5rem;
+}
+
+.c_container #c_title {
+    font-weight: extra-bold;
+}
+
+.c_container #c_note {
+    font-size: 18px;
+}
+
+#contact button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #3882f6;
+    border: solid 2px #f9faf8;
+    margin: 3rem 5rem 3rem 0;
+}
+
+#footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 1.5rem 0;
+}
